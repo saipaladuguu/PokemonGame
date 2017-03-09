@@ -1,10 +1,17 @@
 package pokemon.controller;
 
 import java.util.ArrayList;
+<<<<<<< HEAD
 import pokemon.model.*;
 import pokemon.view.PokemonFrame;
 import javax.swing.JOptionPane;
 
+=======
+
+import pokemon.model.Pokemon;
+import pokemon.view.PokemonFrame;
+
+>>>>>>> origin/master
 public class PokemonController
 {
 	private ArrayList<Pokemon> pokedex;
@@ -20,17 +27,25 @@ public class PokemonController
 	
 	public void start()
 	{
+<<<<<<< HEAD
 		JOptionPane.showMessageDialog(baseFrame, "Welcome to Pokemon Inheritance");
+=======
+		
+>>>>>>> origin/master
 	}
 	
 	private void buildPokedex()
 	{
+<<<<<<< HEAD
 		pokedex.add(new Charizard("Charizard"));
 		pokedex.add(new Charmander("Charmander"));
 		pokedex.add(new Eevee("Eevee"));
 		pokedex.add(new Pikachu("Pikachu"));
 		pokedex.add(new Snorlax("Snorlax"));
 		pokedex.add(new Snorlax("Snorlax 2.0"));
+=======
+		
+>>>>>>> origin/master
 	}
 	
 	public String[] buildPokedexText()
@@ -44,6 +59,7 @@ public class PokemonController
 		
 		return pokemonNames;
 	}
+<<<<<<< HEAD
 
 	public void updateSelected(int index, String name, int combat, int health, double speed)
 	{
@@ -64,3 +80,6 @@ public class PokemonController
 		return baseFrame;
 	}
 }
+=======
+}
+>>>>>>> origin/master

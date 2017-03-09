@@ -7,4 +7,8 @@ public class PokemonRunner
 		PokemonController pokemonAppRunner = new PokemonController();
 		pokemonAppRunner.start();
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
